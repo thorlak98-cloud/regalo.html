@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Para Ti, Mi Amor! ❤️</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #fce4ec; /* Color de fondo suave (rosa claro) */
+            color: #4a148c; /* Color de texto (morado oscuro) */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            width: 400px;
+        }
+
+        h1 {
+            color: #e91e63; /* Color de acento (rosa vibrante) */
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .photo {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 4px solid #ff80ab; /* Borde rosa claro */
+        }
+
+        p.message {
+            font-size: 1.2em;
+            margin: 25px 0;
+            line-height: 1.4;
+            font-style: italic;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Un mensaje especial para ti!</h1>
+        
+        <img src="nuestra_foto.jpg" alt="Nuestra Foto Bonita" class="photo">
+
+        <p class="message">
+            "Mi amor, escaneaste esto porque quería recordarte en este momento lo mucho que te quiero. ¡No importa el día, siempre pienso en ti! Espero que esta canción te haga sonreír."
+        </p>
+        
+        <audio controls loop autoplay>
+            <source src="cancion.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+
+        <p style="font-size: 0.8em; margin-top: 15px;">(Si la música no suena, por favor toca el botón de "Play" arriba ⬆️)</p>
+    </div>
+</body>
+</html>
